@@ -9,7 +9,7 @@ function removeDup(arr) {
   }
   return newArr;
 }
-console.log(removeDup([1, 1, 2, 3, 4, 4, 5, 5, 5]));
+console.log(removeDup([1, 1, 2, 3, 4, 4, 5, 5, 5])); // [1,2,3,4,5]
 
 // without using auxiliary space
 
@@ -27,4 +27,4 @@ function removeDuplicate(arr) {
   arr.length = current + 1;
   return arr;
 }
-console.log(removeDuplicate([0, 1, 1, 1, 2, 3, 4, 4, 5, 5, 5]));
+console.log(removeDuplicate([0, 1, 1, 1, 2, 3, 4, 4, 5, 5, 5])); // [0,1,2,3,4,5]
