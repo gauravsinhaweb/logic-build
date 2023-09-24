@@ -1,7 +1,9 @@
-// pattern 1
-
 let n = 5;
 let string = "";
+
+// ----------------------------------------------------
+
+// pattern 1 - square pattern
 
 for (let i = 0; i < n; i++) {
   for (let j = 0; j < n; j++) {
@@ -13,10 +15,6 @@ console.log(string);
 
 // pattern 2
 
-let n = 5;
-
-let string = "";
-
 for (let i = 0; i < n; i++) {
   for (let j = i; j >= 0; j--) {
     string += " " + "*";
@@ -26,10 +24,6 @@ for (let i = 0; i < n; i++) {
 console.log(string);
 
 // pattern 3
-
-let n = 5;
-
-let string = "";
 
 for (let i = 1; i <= n; i++) {
   for (let j = 1; j <= i; j++) {
@@ -41,10 +35,6 @@ console.log(string);
 
 // pattern 4
 
-let n = 5;
-
-let string = "";
-
 for (let i = 1; i <= n; i++) {
   for (let j = 1; j <= i; j++) {
     string += i;
@@ -54,10 +44,6 @@ for (let i = 1; i <= n; i++) {
 console.log(string);
 
 // pattern 5
-
-let n = 5;
-
-let string = "";
 
 for (let i = 1; i <= n; i++) {
   for (let j = 1; j <= n - i + 1; j++) {
@@ -69,10 +55,6 @@ console.log(string);
 
 // pattern 6
 
-let n = 5;
-
-let string = "";
-
 for (let i = 1; i <= n; i++) {
   for (let j = 1; j <= n - i + 1; j++) {
     string += j;
@@ -82,9 +64,6 @@ for (let i = 1; i <= n; i++) {
 console.log(string);
 
 // pyramidal pattern
-
-const n = 5;
-let string = "";
 
 function makePattern(n) {
   for (var i = 1; i <= n; i++) {
@@ -106,9 +85,6 @@ function makePattern(n) {
 console.log(makePattern(n));
 
 // inverted pyramidal pattern
-
-const n = 5;
-let string = "";
 
 function makePattern(n) {
   for (var i = 1; i <= n; i++) {
